@@ -1,0 +1,7 @@
+{
+  "name": "NorthBridgeIntelligenceHub",
+  "version": "1.0.0",
+  "description": "NorthBridge Intelligence Hub - authenticated dashboard",
+  "homepage": "index.html",
+  "login_redirect": "index.html"
+}
