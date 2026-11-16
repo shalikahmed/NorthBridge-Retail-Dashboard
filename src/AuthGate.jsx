@@ -13,8 +13,10 @@ export default function AuthGate({ children }) {
     let cancelled = false;
 
     async function verifySession() {
-      // Local Vite development remains usable; production requires Catalyst auth.
-      if (import.meta.env.DEV && !getCatalyst()?.auth?.isUserAuthenticated) {
+      // GitHub Pages is a static demo host and does not provide Catalyst auth.
+      // Keep Catalyst authentication enabled on the actual Catalyst deployment.
+      const isGitHubPages = window.location.hostname.endsWith(".github.io");
+      if (import.meta.env.DEV || isGitHubPages) {
         if (!cancelled) setStatus("allowed");
         return;
       }
