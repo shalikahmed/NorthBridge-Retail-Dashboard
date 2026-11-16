@@ -82,12 +82,12 @@ export default function AuthGate({ children }) {
 }
 
 const styles = {
-  screen: { minHeight: "100vh", display: "grid", placeItems: "center", padding: 24, background: "#f5f7fb", fontFamily: "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", color: "#182230" },
-  panel: { width: "100%", maxWidth: 440, boxSizing: "border-box", textAlign: "center", background: "#fff", padding: "40px 32px", border: "1px solid #e4e8ef", borderRadius: 18, boxShadow: "0 12px 40px rgba(20, 36, 64, 0.08)" },
-  spinner: { width: 28, height: 28, margin: "0 auto 20px", border: "3px solid #e4e8ef", borderTopColor: "#2457d6", borderRadius: "50%" },
+  screen: { minHeight: "100vh", display: "grid", placeItems: "center", padding: 24, background: "#F3FAF6", fontFamily: "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", color: "#163E2F" },
+  panel: { width: "100%", maxWidth: 440, boxSizing: "border-box", textAlign: "center", background: "#fff", padding: "40px 32px", border: "1px solid #D3E6DB", borderRadius: 18, boxShadow: "0 12px 40px rgba(22, 62, 47, 0.08)" },
+  spinner: { width: 28, height: 28, margin: "0 auto 20px", border: "3px solid #D3E6DB", borderTopColor: "#198754", borderRadius: "50%" },
   lock: { fontSize: 30, marginBottom: 12 },
   title: { fontSize: 22, lineHeight: 1.3, margin: "0 0 12px", fontWeight: 700 },
-  copy: { margin: "0 0 16px", color: "#657184", lineHeight: 1.6 },
-  email: { fontSize: 13, color: "#657184", margin: "0 0 24px", overflowWrap: "anywhere" },
-  button: { border: 0, borderRadius: 9, background: "#2457d6", color: "white", fontWeight: 600, padding: "11px 20px", cursor: "pointer" },
+  copy: { margin: "0 0 16px", color: "#6B7D72", lineHeight: 1.6 },
+  email: { fontSize: 13, color: "#6B7D72", margin: "0 0 24px", overflowWrap: "anywhere" },
+  button: { border: 0, borderRadius: 9, background: "#198754", color: "white", fontWeight: 600, padding: "11px 20px", cursor: "pointer" },
 };
